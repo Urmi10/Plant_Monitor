@@ -1,0 +1,11 @@
+setChartLibrary('google-chart');
+setChartTitle('Light Intensity Monitor');
+setChartType('gauge');
+setAxisName('Light_data');
+setDimensions(400, 400);
+setMaxValue(1023);
+plotChart('light');
+setCrosshair(false);
+setGreen(250, 500);
+setYellow(501, 725);
+setRed(726, 1023);
